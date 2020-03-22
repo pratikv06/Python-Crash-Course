@@ -8,7 +8,9 @@ print("String 1 : ", str)
 str = "The language 'Python' is named after Monty Python, not the snake."
 print("String 2 : ", str)
 
-str = "One of Python's strengths is its diverse and supportive community."
+str = "One of Python's\
+ strengths is its diverse\
+ and supportive community."
 print("String 3 : ", str)
 
 print("\n*** Function of String ***")
