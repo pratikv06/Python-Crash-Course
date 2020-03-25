@@ -1,0 +1,5 @@
+num = list(range(-10,15,3))
+print("My list:", num)
+print("Minimun:", min(num))
+print("Maximum:", max(num))
+print("Sum:", sum(num))
