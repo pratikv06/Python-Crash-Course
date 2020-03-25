@@ -1,0 +1,29 @@
+Indentation
+   > Use 4 spaces per indentation level 
+   > dont mix tab and spaces
+   > prefer spaces over tab
+
+Line Length
+   > Each line should conatin less then 79 characters
+   > Comment should be limit to 72 characters per line
+
+Blank Lines
+   > Add line in between the code to make it more readable
+   > T understand the logic of the code, leave a blank line between them
+   > Between
+     Classes      - Two 
+     Methods      - One
+
+Naming Conventions
+   > Never use single letter name
+   > Naming Style
+     Function     - lowercase(word/words), underscore
+     Variable     - lowercase(letter/word/words), underscore
+     Class        - CamelCase, No underscore
+     Method       - lowercase(word/words), underscore
+     Module       - short, lowercase(word/words), underscore
+     Package      - short, lowercase(word/words), no underscore
+
+Whitespace Around Binary Operators
+   > Recommended - `y = x**2 + 5`, Not Recommended - `y = x ** 2 + 5`
+   > Recommended - `my_list = [1, 2, 3]`, Not Recommended - `my_list = [ 1, 2, 3, ]`
