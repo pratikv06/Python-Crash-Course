@@ -7,8 +7,6 @@ alien_color and assign it a value of 'green', 'yellow', or 'red'.
 > Write one version of this program that passes the if test and another that
   fails. (The version that fails will have no output.)
 """
-alien_color = ['green', 'yellow', 'red']
-
 # if is true
 color = 'green'
 if color in alien_color:
