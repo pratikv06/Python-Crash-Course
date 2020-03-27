@@ -15,5 +15,8 @@ fav_num = {
     'sahil': 11,
 }
 
-for key in fav_num:
-    print(key.title(), "favorite number is",  fav_num[key])
+print("Amit favorite number is",  fav_num['amit'])
+print("Vishal favorite number is",  fav_num['vishal'])
+print("Purvesh favorite number is",  fav_num['purvesh'])
+print("jayesh favorite number is",  fav_num['jayesh'])
+print("Sahil favorite number is",  fav_num['sahil'])

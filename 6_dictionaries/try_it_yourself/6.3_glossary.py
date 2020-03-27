@@ -19,5 +19,9 @@ glossary = {
     'dictionary': 'dictionary is a collection which is unordered, changeable and indexed.',
 }
 
-for key in glossary:
-    print(key.title() +" its meaning \n"+ glossary[key])
+
+print("Programming meaning \n"+ glossary['programming'])
+print("List meaning \n"+ glossary['list'])
+print("Tuple meaning \n"+ glossary['tuple'])
+print("Set meaning \n"+ glossary['set'])
+print("Dictionary meaning \n"+ glossary['dictionary'])

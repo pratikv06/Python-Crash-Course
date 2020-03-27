@@ -13,5 +13,9 @@ person = {
     'city': 'Mumbai',
 }
 
-for key in person:
-    print(key, ">", person[key])
+print("First Name : "+ person['first_name'])
+print("last Name : "+ person['last_name'])
+print("Age : "+ str(person['age']))
+print("City : "+ person['city'])
+
+print(person.keys(0))
