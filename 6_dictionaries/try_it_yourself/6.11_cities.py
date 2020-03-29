@@ -11,28 +11,28 @@ cities = {
     'mumbai': {
         'country': 'india',
         'state': 'maharashtra',
-        'area': 603.4,
+        'area': '603.4 km',
         'population': '1.84 crores',
         'language': 'marathi',
     },
     'pune': {
         'country': 'india',
         'state': 'maharashtra',
-        'area':331.3,
+        'area': '331.3 km',
         'population': '31.2 lakhs',
         'language': 'marathi',
     },
     'banglore': {
         'country': 'india',
         'state': 'karnataka',
-        'area': 709,
+        'area': '709 km',
         'population': '84.3 lakhs',
         'language': 'kannada',
     },
     'new delhi': {
         'country': 'india',
         'state': 'delhi',
-        'area': 1484,
+        'area': '1484 km',
         'population': '1.9 crores',
         'language': 'hindi',
     },
@@ -40,10 +40,5 @@ cities = {
 
 for city, cityinfo in cities.items():
     print("City : "+ city.title())
-    for info in cityinfo:
-        print("\t- In State: "+ cityinfo['state'].title())
-        print("\t- In Country: "+ cityinfo['country'].title())
-        print("\t- Language Speak: "+ cityinfo['language'].title())
-        print("\t- Total Area: "+ str(cityinfo['area']) +" Km")
-        print("\t- Total Population: "+ cityinfo['population'].title())
-        break
+    for key, info in cityinfo.items():
+        print("\t"+ key.title() +" : "+ info.title())
