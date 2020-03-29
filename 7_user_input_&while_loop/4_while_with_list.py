@@ -5,7 +5,7 @@ while unconfirmed_user:
     user = unconfirmed_user.pop()
     print("Verifying user : "+ user.title())
     confirmed_user.append(user)
-print("Displying the Conformed User: ")
+print("Displying the Confirmed User: ")
 for user in confirmed_user:
     print("\t> "+ user.title())
 
