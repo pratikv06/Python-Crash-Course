@@ -29,6 +29,6 @@ class Restaurant():
 
     # Class End
 
-restatrant_obj = Restaurant('the punjabi rosai', 'punjabi')
-restatrant_obj.describe_restaurant()
-restatrant_obj.open_restaurant()
+restaurant_obj = Restaurant('the punjabi rosai', 'punjabi')
+restaurant_obj.describe_restaurant()
+restaurant_obj.open_restaurant()
