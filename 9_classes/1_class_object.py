@@ -4,7 +4,6 @@
 
 class Dog():
     """A simple attempt to model a dog"""
-
     # A function that is a part of class is called `method`
     # `init` method special method
     # two leading and tailing underscore
@@ -26,7 +25,6 @@ class Dog():
     def roll_over(self):
         """Simulate rolling over in response to a command"""
         print(self.name.title() +" rolled over!!")
-
 
     # End of the class
 
