@@ -21,7 +21,7 @@ class User():
     def describe_user(self):
         '''Display user info'''
         print("** USER INFO **")
-        print("User fssrt name is - "+ self.first_name.title())
+        print("User first name is - "+ self.first_name.title())
         print("User last name is - "+ self.last_name.title())
         print("User full name is - "+ self.full_name.title())    
 
