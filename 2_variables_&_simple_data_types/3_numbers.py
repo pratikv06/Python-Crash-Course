@@ -19,5 +19,5 @@ print("3 * 0.1 =", 3*0.1)
 
 print("\nAvoiding Type Errors with the str() Function")
 age = 23
-message = "Happy "+ str(age) +"rd Birthday!" # without str, it will thorw typrerror
+message = "Happy "+ str(age) +"rd Birthday!" # without str, it will throw typrerror
 print(message)
