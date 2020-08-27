@@ -1,4 +1,4 @@
-# To make a slice, you specify the ix of first and last element you want to work with.
+# To make a slice, you specify the index of first and last element you want to work with.
 players = ['charles', 'martina', 'michael', 'florence', 'eli']
 print("Player from index 0 to 3:",players[0:3])
 # this will print value at index 0, 1, and 2 
