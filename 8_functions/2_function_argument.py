@@ -24,6 +24,9 @@ def describe_pet2(pet_name,animal_type='dog'):
     """Display info about a pet"""
     print("\nI have a "+ animal_type +".")
     print("My "+ animal_type +"'s name is "+ pet_name.title())
-# animal type is not passed, pet_name is treated as positional argument that why default is at the extreme right 
+# animal type is not passed, 
+# pet_name is treated as positional argument 
+# that why default is at the extreme right 
 describe_pet2('willie')
+describe_pet2('willie', 'cat')
 describe_pet2(pet_name='harry', animal_type='hamster') #animal type is passed

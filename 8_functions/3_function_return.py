@@ -5,7 +5,7 @@ def get_formatted_name(first_name, last_name):
     full_name = first_name +" "+ last_name
     return full_name.title()
 
-person = get_formatted_name('nilesh', 'yadav')
+person = get_formatted_name('nilesh', 'modi')
 print(person)
 
 print("\n>> making a argument optional")
@@ -14,9 +14,9 @@ def get_formatted_name2(first_name, last_name, middle_name=''):
     """Return a full name, neatly formatted"""
     full_name = first_name +" "+ middle_name +" "+ last_name
     return full_name.title()
-person = get_formatted_name2('nilesh', 'yadav', 'suresh')
+person = get_formatted_name2('aakash', 'desai', 'suresh')
 print(person)
-person = get_formatted_name2('nlesh', 'yadav')
+person = get_formatted_name2('saurabh', 'yadav')
 print(person)
 
 print("\n>> Returning dictionary from a function")
@@ -29,5 +29,5 @@ def build_person(first_name, last_name, age=''):
     if age:
         person['age'] = age
     return person
-detail = build_person('pratik', 'vishwakarma', 12)
+detail = build_person('anand', 'yadav', 32)
 print(detail)

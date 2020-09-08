@@ -29,6 +29,6 @@ print_model(unprinted_designs, completed_models)
 show_completed_model(completed_models)
 
 # Note:
-# If you want to make a copy of the liat so that any changes made in the function 
+# If you want to make a copy of the list so that any changes made in the function 
 # is not reflected on the list.
 # Use the `slice notation` to send copy of the list to the function.

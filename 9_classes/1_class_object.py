@@ -1,5 +1,5 @@
 # Dog module
-# class keyword is uesd to describe class
+# class keyword is used to describe class
 # class name should be in CamelCase
 
 class Dog():
@@ -30,7 +30,11 @@ class Dog():
 
 print(">> Creating object of the class:")
 my_dog = Dog('willie', 6)
+
+# Return all the variable in dictionary format
+print(my_dog.__dict__)
 print(type(my_dog))
+
 print(">> Let create one more object:")
 your_dog = Dog('lucy', 3)
 print(type(your_dog))

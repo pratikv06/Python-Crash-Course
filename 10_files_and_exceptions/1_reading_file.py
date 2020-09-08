@@ -1,6 +1,10 @@
-with open("file1_pi_digit.txt") as file_object:
+with open('file1_pi_digit.txt') as file_object:
     contents = file_object.read()
+    print(type(contents))
     print(contents)
+
+    print("\nRemoving Extra Line:")
+    print(contents.rstrip(), end='')
 
 """
 > open()
@@ -11,4 +15,10 @@ with open("file1_pi_digit.txt") as file_object:
 
 > read()
     - read entire content of the file
+
+> rstrip()
+    - This wil remove all the blank space from the text in file
+
+> end=''
+    - This will prevent enter to new line after executing print statement
 """
